@@ -1,6 +1,5 @@
-# Eliza
+# 21AI
 
-<img src="./docs/static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
 
 ## 功能
 
@@ -12,7 +11,7 @@
 - ☁️ 多模型支持，包括Llama、OpenAI、Grok、Anthropic等
 - 📦 简单好用
 
-你可以用Eliza做什么？
+你可以用21AI做什么？
 
 - 🤖 聊天机器人
 - 🕵️ 自主Agents
@@ -45,11 +44,11 @@ pnpm i
 pnpm start
 ```
 
-# 自定义Eliza
+# 自定义21AI
 
 ### 添加常规行为
 
-为避免在核心目录中的 Git 冲突，我们建议将自定义操作添加到 custom_actions 目录中，并在 elizaConfig.yaml 文件中配置这些操作。可以参考 elizaConfig.example.yaml 文件中的示例。
+为避免在核心目录中的 Git 冲突，我们建议将自定义操作添加到 custom_actions 目录中，并在 21AIConfig.yaml 文件中配置这些操作。可以参考 21AIConfig.example.yaml 文件中的示例。
 
 ## 配置不同的大模型
 
